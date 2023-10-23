@@ -3,8 +3,8 @@ import pandas as pd
 from models.dummies import *
 import joblib
 
-model=joblib.load('models\model.h5')
-scaler=joblib.load('models\scaler.h5')
+model=joblib.load(r'D:\Courses\Epsilon\Streamlit\Session 2\Code\models\model.h5')
+scaler=joblib.load(r'D:\Courses\Epsilon\Streamlit\Session 2\Code\models\scaler.h5')
 
 
 st.title('Bikes Renting Project')
